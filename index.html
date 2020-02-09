@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Creative - Start Bootstrap Theme</title>
+
+  <!-- Font Awesome Icons -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS - Includes Bootstrap -->
+  <link href="css/creative.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" onload="timer_update()">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">WashU Game Jam</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#portfolio">Sample Games</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Masthead -->
+  <header class="masthead">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center justify-content-center text-center">
+        <div class="col-lg-10 align-self-end">
+          <h1 class="text-uppercase text-white font-weight-bold">Spring Game Jam! </h1>
+          <h2 class="text-white"> March 21 WashU 2020 </h2>
+          <h1 class="text-white" id="timer"> hh:mm:ss </h1>
+          <hr class="divider my-4">
+        </div>
+        <div class="col-lg-8 align-self-baseline">
+          <p class="text-white-75 font-weight-light mb-5">What is a game jam you say? Come join us for a day of game-making workshops using Unity, find friends and challenge yourself to making a game in 24hrs!</p>
+          <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="page-section bg-primary" id="about">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="text-white mt-0">What is a Game Jam?</h2>
+          <hr class="divider light my-4">
+          <p class="text-white-50 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+          <a class="btn btn-light btn-xl" style="cursor:pointer;" data-toggle="modal" data-target="#signupModal">Count me in!</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="page-section" id="services">
+    <div class="container">
+      <h2 class="text-center mt-0">Projected Schedule</h2>
+      <hr class="divider my-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-5">
+          <table class="table table-borderless">
+            <thread>
+              <tr>
+                <th scope="col" class="text-right">Day 1</th>
+                <th scope="col"></th>
+              </tr>
+            </thread>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-right">1000 - 1230:</th>
+                <td> Unity Tutorial</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-right">1230 - 1300:</th>
+                <td> Lunch </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-right">1300 - 1315:</th>
+                <td> Kickoff & Theme Reveal</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-right">1315 - 1400:</th>
+                <td> Team Formation/Brainstorming</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-right">1400 - 1600:</th>
+                <td> Office Hours with GameDev Studios</td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-right">1800 - 1830:</th>
+                <td> Dinner</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-lg-5">
+          <table class="table table-borderless">
+            <thread>
+              <tr>
+                <th scope="col" class="text-right">Day 2</th>
+                <th scope="col"></th>
+              </tr>
+            </thread>
+            <tbody>
+              <tr>
+                <th scope="row" class="text-right">1100 - 1130:</th>
+                <td> Brunch </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-right">1300:</th>
+                <td> <b>Submissions due!</b> </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-right">1315 - 1400:</th>
+                <td> Demo Sessions </td>
+              </tr>
+              <tr>
+                <th scope="row" class="text-right">by 1500:</th>
+                <td> Closing </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters justify-content-center">
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/watchmaker_full.PNG">
+            <img class="img-fluid" src="img/portfolio/thumbnails/watchmaker-01.PNG" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                Global Game Jam 2020
+              </div>
+              <div class="project-name">
+                Watchmaker
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <a class="portfolio-box" href="img/portfolio/fullsize/crustaceans_full.PNG">
+            <img class="img-fluid" src="img/portfolio/thumbnails/crustaceans-01.PNG" alt="">
+            <div class="portfolio-box-caption">
+              <div class="project-category text-white-50">
+                CSE450 Final Project
+              </div>
+              <div class="project-name">
+                Crustaceans Catastrophe
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action Section -->
+  <section class="page-section bg-dark text-white">
+    <div class="container text-center">
+      <h2 class="mb-4">Games by students</h2>
+      <p class="text-muted text-center"><a href="https://globalgamejam.org/2020/jam-sites/stlgamedev-ggj-saint-louis-university">View more games</a> from the recent Global Game Jam hosted in St.Louis University!</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="page-section" id="contact">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <h2 class="mt-0">Get In Touch!</h2>
+          <hr class="divider my-4">
+          <p class="text-muted mb-5">If you're a <b style="color:#000000">company</b> interested in sponsoring this event and reaching out to students here in WashU or a <b style="color:#000000">student</b> interested in helping out with the organization and execution of the event, feel free to reach out to us!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 mr-auto text-center">
+          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+          <!-- Make sure to change the email address in anchor text AND the link below! -->
+          <a class="d-block" href="mailto:acm@su.wustl.edu">acm@su.wustl.edu</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-light py-5">
+    <div class="container">
+      <div class="small text-center text-muted">Built with start bootstrap <a href="https://startbootstrap.com/themes/creative/">creative theme</a></div>
+    </div>
+  </footer>
+
+  <!-- Sign-Up Modal -->
+  <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Sign Me Up!</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <form id="signup_form">
+          <div class="modal-body">
+            <div class="form-group row">
+              <label for="email" class="col-lg-2 col-sm-2 col-form-label">Email</label>
+              <div class="col-lg-10 col-sm-10">
+                <input type="text" class="form-control form-control-sm" id="email"/>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit button" class="btn btn-success">Sign Up!</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/creative.min.js"></script>
+
+  <script>
+    $("#signup_form").submit(function(e){
+      e.preventDefault();
+      var email = $("#email").val();
+      var post_form = $.post("/signup", {
+        email: email
+      });
+      post_form.always(function(data){
+        console.log("Sent: " + data);
+      });
+      post_form.done(function(data){
+        console.log("Successfully Signed up for Game Jam! | " + data);
+      });
+    });
+    // Timeout looped update for clock
+    const LENGTH_TIME = 5400000;
+    const START_TIME = new Date("March 21 2020 13:00");  //This will be loaded as well from server
+    function timer_update() {
+      //var today = new Date();
+      var today = (START_TIME - new Date())/1000;
+      var h = Math.floor(today / 3600);
+      var days = Math.floor(h / 24);
+      var m = Math.floor((today - h*3600) / 60);
+      var s = Math.floor(today % 60);
+      var h = h - days*24;
+      if (h < 10) {
+        h = "0" + h;
+      }
+      if (m < 10) {
+        m = "0" + m;
+      }
+      if (s < 10) {
+        s = "0" + s;
+      }
+      var disp = days + " Days | " + h + ":" + m + ":" + s;
+      $('#timer').text(disp);
+      setTimeout(timer_update, 500);
+    }
+  </script>
+
+</body>
+
+</html>
